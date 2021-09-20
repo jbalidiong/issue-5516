@@ -4,8 +4,8 @@ Steps to replicate:
 2. firebase-messaging-sw.js service-worker file in the public folder in our react app and add this code:
 
             // Scripts for firebase and firebase messaging
-            importScripts('https://www.gstatic.com/firebasejs/8.2.0/firebase-app.js');
-            importScripts('https://www.gstatic.com/firebasejs/8.2.0/firebase-messaging.js');
+            importScripts('https://www.gstatic.com/firebasejs/9.0.2/firebase-app.js');
+            importScripts('https://www.gstatic.com/firebasejs/9.0.2/firebase-messaging.js');
 
             // Initialize the Firebase app in the service worker by passing the generated config
             var firebaseConfig = {
